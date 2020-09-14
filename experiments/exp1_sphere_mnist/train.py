@@ -6,7 +6,7 @@ import pickle, gzip
 import logging
 import shutil
 
-from utils import sparse2tensor, spmatmul, MNIST_S2_Loader
+from meshcnn.utils import sparse2tensor, spmatmul, MNIST_S2_Loader
 from ops import MeshConv
 from model import Model
 
